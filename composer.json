@@ -1,0 +1,17 @@
+{
+    "name": "sumichael/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Granado",
+            "email": "mgranado64@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"granado\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
